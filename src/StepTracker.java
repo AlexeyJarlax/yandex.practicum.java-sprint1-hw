@@ -88,7 +88,6 @@ public class StepTracker {
                 runTimer.runTimerRun();
 
 
-
         }
         public void newGoal(Scanner scanner) { // метод для перемены цели
             System.out.println("Какой цели я служу?");
