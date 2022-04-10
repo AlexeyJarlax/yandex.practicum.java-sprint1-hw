@@ -11,7 +11,7 @@ public class Main {
 
         Converter Converter = new Converter(); // ОБЪЯВЛЯЕМ КЛАСС КОНВЕРТЕР
 
-                Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         printMenu();
         int userInput = scanner.nextInt();
 

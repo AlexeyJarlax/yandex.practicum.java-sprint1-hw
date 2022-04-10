@@ -2,14 +2,7 @@ import java.util.Scanner;
 
 public class StepTracker {
     String error = "Ошибка мясного мешка, сброс в главное меню!"; // переменная для ответа на ошибочный ввод данных
-    //int userInput;
-    // int month = 0;
-    // int day = 0;
-    // int max = 0;
-    // int shagomer = 0;
     int stepGoal = 10000;
-
-    //int thisMonthAllSteps = 0; // шаги за весь месяц
     int[] stepOfEachDay = new int[360]; // массив для хранение данных о количестве пройденных шагов за всё время
 
 
@@ -114,9 +107,9 @@ public class StepTracker {
         }
         // ОБЪЯВЛЕНИЕ ИТОГОВ СЕРИАЛА:
         if (biggestSeriesQuantity > 1) {
-        System.out.println("Максимальное количество подряд идущих дней, в течение которых количество шагов за день было равно или выше целевого началось " + biggestSeriesBegin + " числа месяца. Серия продлилась " + biggestSeriesQuantity + " дня и составила в сумме " + biggestSeriesVolume + " шагов!");
+            System.out.println("Максимальное количество подряд идущих дней, в течение которых количество шагов за день было равно или выше целевого началось " + biggestSeriesBegin + " числа месяца. Серия продлилась " + biggestSeriesQuantity + " дня и составила в сумме " + biggestSeriesVolume + " шагов!");
         } else {
-        System.out.println("Вы не смогли сохранить ритм более одного дня ¯\\_(ツ)_/¯. Данные о серии шагов не зачтены.");
+            System.out.println("Вы не смогли сохранить ритм более одного дня ¯\\_(ツ)_/¯. Данные о серии шагов не зачтены.");
         }
         return month;
 
