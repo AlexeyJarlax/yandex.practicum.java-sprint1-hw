@@ -10,12 +10,12 @@ public class runTimer {
             }
         };
 
-        for ( int i = 3; i > 0; --i ) {
+        for (int i = 3; i > 0; --i) {
             System.out.println("Возврат в меню через: " + i);
             try {
                 Thread.sleep(1000);
+            } catch (InterruptedException ie) {
             }
-            catch (InterruptedException ie) {}
         }
 
 
