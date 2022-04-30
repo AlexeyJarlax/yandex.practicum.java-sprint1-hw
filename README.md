@@ -1,2 +1,3 @@
 # java-sprint1-hw
-First sprint homework
+Yandex praktikum java first sprint homework
+«Счётчик калорий»
